@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMION — студия дизайна интерьеров</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Подключение Google Fonts для современного шрифта -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ШАПКА -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">LUMION</div>
+            <nav class="nav">
+                <a href="#about">О нас</a>
+                <a href="#projects">Проекты</a>
+                <a href="#contact">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ГЛАВНЫЙ ЭКРАН -->
+    <section class="hero">
+        <div class="container hero-container">
+            <h1 class="hero-title">Создаём пространство,<br>в котором хочется жить</h1>
+            <p class="hero-subtitle">Студия дизайна интерьеров LUMION — индивидуальные проекты для квартир и домов</p>
+            <a href="#contact" class="btn">Обсудить проект</a>
+        </div>
+    </section>
+
+    <!-- О КОМПАНИИ -->
+    <section id="about" class="about">
+        <div class="container about-container">
+            <div class="about-text">
+                <h2>О студии</h2>
+                <p>LUMION — это команда архитекторов и дизайнеров с опытом более 10 лет. Мы создаём интерьеры, которые сочетают эстетику, функциональность и индивидуальность.</p>
+                <p>Работаем с объектами любой сложности: от компактных студий до загородных домов. Находим уникальные решения под ваш бюджет и стиль жизни.</p>
+            </div>
+            <div class="about-stats">
+                <div class="stat-item">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">реализованных проектов</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">8</span>
+                    <span class="stat-label">профессионалов в команде</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">3 года</span>
+                    <span class="stat-label">гарантии на авторский надзор</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ПОРТФОЛИО / ПРОЕКТЫ (в виде карточек) -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Избранные проекты</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img placeholder-img"></div>
+                    <h3>Квартира на Воронцовской</h3>
+                    <p>Современная классика, 94 м²</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-img placeholder-img"></div>
+                    <h3>Таунхаус в Серебряном бору</h3>
+                    <p>Минимализм, 160 м²</p>
+                </div>
+                <div class="project-card">
+                    <div class="project-img placeholder-img"></div>
+                    <h3>Неоклассика на Патриках</h3>
+                    <p>Неоклассика, 120 м²</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- КОНТАКТЫ -->
+    <section id="contact" class="contact">
+        <div class="container contact-container">
+            <h2 class="section-title">Свяжитесь с нами</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <p><strong>Телефон:</strong> +7 (495) 123-45-67</p>
+                    <p><strong>E-mail:</strong> hello@lumion.studio</p>
+                    <p><strong>Адрес:</strong> Москва, ул. Тверская, 12</p>
+                    <p><strong>Режим работы:</strong> Пн–Пт, 10:00 – 19:00</p>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Ваше имя" required>
+                    <input type="email" placeholder="E-mail" required>
+                    <textarea placeholder="Краткое описание задачи" rows="4"></textarea>
+                    <button type="submit" class="btn">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ПОДВАЛ -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>© 2025 LUMION — студия дизайна интерьеров</p>
+            <div class="social-links">
+                <a href="#">Telegram</a>
+                <a href="#">Instagram</a>
+                <a href="#">Pinterest</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
